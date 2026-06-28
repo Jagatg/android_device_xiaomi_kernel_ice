@@ -1,0 +1,1 @@
+cmd_/root/tree/kernel/include/video/.install := /bin/bash scripts/headers_install.sh /root/tree/kernel/include/video ./include/uapi/video edid.h sisfb.h uvesafb.h; /bin/bash scripts/headers_install.sh /root/tree/kernel/include/video ./include/generated/uapi/video ; touch /root/tree/kernel/include/video/.install

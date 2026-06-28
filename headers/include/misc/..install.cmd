@@ -1,0 +1,1 @@
+cmd_/root/tree/kernel/include/misc/.install := /bin/bash scripts/headers_install.sh /root/tree/kernel/include/misc ./include/uapi/misc cxl.h ocxl.h; /bin/bash scripts/headers_install.sh /root/tree/kernel/include/misc ./include/generated/uapi/misc ; touch /root/tree/kernel/include/misc/.install

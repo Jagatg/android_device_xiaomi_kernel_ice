@@ -1,0 +1,1 @@
+cmd_/root/tree/kernel/include/scsi/.install := /bin/bash scripts/headers_install.sh /root/tree/kernel/include/scsi ./include/uapi/scsi cxlflash_ioctl.h scsi_bsg_fc.h scsi_bsg_ufs.h scsi_netlink.h scsi_netlink_fc.h; /bin/bash scripts/headers_install.sh /root/tree/kernel/include/scsi ./include/generated/uapi/scsi ; touch /root/tree/kernel/include/scsi/.install

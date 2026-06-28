@@ -1,0 +1,1 @@
+cmd_/root/tree/kernel/include/linux/android/.install := /bin/bash scripts/headers_install.sh /root/tree/kernel/include/linux/android ./include/uapi/linux/android binder.h binderfs.h; /bin/bash scripts/headers_install.sh /root/tree/kernel/include/linux/android ./include/generated/uapi/linux/android ; touch /root/tree/kernel/include/linux/android/.install

@@ -1,0 +1,1 @@
+cmd_/root/tree/kernel/include/linux/mmc/.install := /bin/bash scripts/headers_install.sh /root/tree/kernel/include/linux/mmc ./include/uapi/linux/mmc ioctl.h; /bin/bash scripts/headers_install.sh /root/tree/kernel/include/linux/mmc ./include/generated/uapi/linux/mmc ; touch /root/tree/kernel/include/linux/mmc/.install
